@@ -1,10 +1,17 @@
 import java.util.Scanner;
 public class zad_3 {
     public static void main(String[] args) {
-        //zad2
+        //zad3
+        int i;
+        int z=1;
+        System.out.println("podaj liczbe");
         Scanner sc = new Scanner(System.in);
-        System.out.print("podaj from");
-        int from = sc.nextInt();
-        System.out.print("podaj to");
+        int n= sc.nextInt();
+        for(i=1;i<=n;i++){
+            z=z*i;
+
+        }
+        System.out.println("silnia to "+z);
+
     }
 }
